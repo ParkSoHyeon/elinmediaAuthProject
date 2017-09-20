@@ -50,7 +50,7 @@ public class AdvertiserController {
 
             wideAdminRepository.save(wideAdmin);
 
-            log.info("커밋 테스트");
+            log.info("커밋 테스트1");
         }
 
     }
