@@ -49,6 +49,8 @@ public class AdvertiserController {
             wideAdmin.setWideAdminRoleCode(Arrays.asList(wideRole));
 
             wideAdminRepository.save(wideAdmin);
+
+            log.info("커밋 테스트");
         }
 
     }
